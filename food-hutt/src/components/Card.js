@@ -9,10 +9,10 @@ function Card({ cardImg, rating, title , personImg }) {
       <div className="text-center px-2 py-4 mx-auto rounded-lg card max-w-[310px] bg-primary bg-opacity-10">
         <img className="mx-auto pb-6" src={cardImg} alt="" />
 
-        <div className="pb-8">
-          <img src={personImg || "{personImg1}"} alt="" />
-          <div className="flex justify-center gap-1">
-            <img src={star} alt="" />
+        <div className="flex justify-center pb-8 gap-4 items-center">
+          <img src={personImg1} alt="" />
+          <div className="flex gap-1">
+            <img className="h-6 w-6" src={star} alt="" />
             <p>{rating || "4.5"}</p>
           </div>
         </div>
