@@ -12,6 +12,10 @@ module.exports = {
           '2xl': '6rem',
         },
       },
+      colors:{
+        primary:'#F54748',
+        secondary:'#FDC55E'
+      }
     },
   },
   plugins: [],
