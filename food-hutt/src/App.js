@@ -1,7 +1,8 @@
-import Navbar from "./components/Navbar.js";
-import Home from "./components/Home.js";
-import Card from "./components/Card.js";
-import Offer from "./components/SpecialOffer.js";
+import Navbar from "./components/Navbar.js"
+import Home from "./components/Home.js"
+import About from "./components/About.js"
+import Offer from "./components/SpecialOffer.js"
+import Menu from "./components/Menu.js"
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Navbar />
       <Home />
       <Offer/>
+      <About /> 
+      <Menu />
     </>
   );
 }
