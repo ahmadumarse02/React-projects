@@ -1,8 +1,8 @@
-import React from "react";
-import cookImg from "../assets/images/aboutimg.png";
-import orderImg from "../assets/images/orderImg.svg";
-import superChefImg from "../assets/images/superChefImg.svg";
-import serviceImg from "../assets/images/servicesImg.svg";
+import React from "react"
+import cookImg from "../assets/images/aboutimg.png"
+import orderImg from "../assets/images/orderImg.svg"
+import superChefImg from "../assets/images/superChefImg.svg"
+import serviceImg from "../assets/images/servicesImg.svg"
 import Button from "./Button.js"
 
 function About() {

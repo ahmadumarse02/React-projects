@@ -1,5 +1,5 @@
-import React from 'react'
-import contactImg from '../assets/images/contactImg.png'
+import React from "react"
+import contactImg from "../assets/images/contactImg.png"
 import GooglePlayLogo from "../assets/images/GooglePlayLogo.svg"
 import AppleLogo from "../assets/images/AppleLogo.svg"
 

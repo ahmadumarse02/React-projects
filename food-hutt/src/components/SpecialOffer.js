@@ -1,12 +1,12 @@
-import React from "react";
-import cardImg1 from "../assets/images/cardImg1.png";
-import cardImg2 from "../assets/images/cardImg2.png";
-import cardImg3 from "../assets/images/cardImg3.png";
-import cardImg4 from "../assets/images/cardImg4.png";
-import Card from "./Card";
-import personImg1 from "../assets/images/personImg1.svg";
-import personImg2 from "../assets/images/personImg2.svg";
-import personImg3 from "../assets/images/personImg3.svg";
+import React from "react"
+import cardImg1 from "../assets/images/cardImg1.png"
+import cardImg2 from "../assets/images/cardImg2.png"
+import cardImg3 from "../assets/images/cardImg3.png"
+import cardImg4 from "../assets/images/cardImg4.png"
+import Card from "./Card"
+import personImg1 from "../assets/images/personImg1.svg"
+import personImg2 from "../assets/images/personImg2.svg"
+import personImg3 from "../assets/images/personImg3.svg"
 
 function Offer() {
   return (
@@ -23,9 +23,9 @@ function Offer() {
       </div>
       <div className="flex gap-8">
         <Card cardImg={cardImg1} personImg={personImg1} />
-        <Card cardImg={cardImg2} personImg={personImg2} />
-        <Card cardImg={cardImg3} personImg={personImg3} />
-        <Card cardImg={cardImg4} personImg={personImg1} />
+        <Card cardImg={cardImg2} personImg={personImg2} title={"Chicken Tikka"} rating={"4.8"} />
+        <Card cardImg={cardImg3} personImg={personImg3} title={"Desi Chowmein"} rating={"4.2"} />
+        <Card cardImg={cardImg4} personImg={personImg1} title={"Chicken Chargha"} rating={"5.0"} />
       </div>
     </div>
   );

@@ -17,6 +17,9 @@ module.exports = {
         primary: "#F54748",
         secondary: "#FDC55E",
       },
+      fontFamily: {
+        Sofia: "Sofia Sans Condensed"
+      }
     },
   },
   plugins: [],

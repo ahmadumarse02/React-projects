@@ -1,15 +1,15 @@
-import React from "react";
-import Card from "../components/Card.js";
-import cardImg1 from "../assets/images/cardImg1.png";
-import cardImg5 from "../assets/images/cardImg5.png";
-import cardImg6 from "../assets/images/cardImg6.png";
-import cardImg7 from "../assets/images/cardImg7.png";
-import cardImg8 from "../assets/images/cardImg8.png";
-import cardImg9 from "../assets/images/cardImg9.png";
-import cardImg10 from "../assets/images/cardImg10.png";
-import cardImg11 from "../assets/images/cardImg11.png";
-import personImg1 from "../assets/images/personImg1.svg";
-import Button from "./Button.js";
+import React from "react"
+import Card from "../components/Card.js"
+import cardImg1 from "../assets/images/cardImg1.png"
+import cardImg5 from "../assets/images/cardImg5.png"
+import cardImg6 from "../assets/images/cardImg6.png"
+import cardImg7 from "../assets/images/cardImg7.png"
+import cardImg8 from "../assets/images/cardImg8.png"
+import cardImg9 from "../assets/images/cardImg9.png"
+import cardImg10 from "../assets/images/cardImg10.png"
+import cardImg11 from "../assets/images/cardImg11.png"
+import personImg1 from "../assets/images/personImg1.svg"
+import Button from "./Button.js"
 
 function Menu() {
   return (
@@ -28,25 +28,25 @@ function Menu() {
           Breakfast
         </div>
         <div className="border-[1px] border-zinc-700 text-zinc-700 rounded-full py-3 px-7 max-w-fit cursor-pointer">
-        Lunch
+          Lunch
         </div>
         <div className="border-[1px] border-zinc-700 text-zinc-700 rounded-full py-3 px-7 max-w-fit cursor-pointer">
-        Dinner
+          Dinner
         </div>
         <div className="border-[1px] border-zinc-700 text-zinc-700 rounded-full py-3 px-7 max-w-fit cursor-pointer">
-        Maxican
+          Maxican
         </div>
         <div className="border-[1px] border-zinc-700 text-zinc-700 rounded-full py-3 px-7 max-w-fit cursor-pointer">
-        Italian
+          Italian
         </div>
         <div className="border-[1px] border-zinc-700 text-zinc-700 rounded-full py-3 px-7 max-w-fit cursor-pointer">
-        Desserts
+          Desserts
         </div>
         <div className="border-[1px] border-zinc-700 text-zinc-700 rounded-full py-3 px-7 max-w-fit cursor-pointer">
-        Drinks
+          Drinks
         </div>
       </div>
-      
+
       <div className="flex gap-8 pb-16 justify-center">
         <Card cardImg={cardImg1} personImg={personImg1} />
         <Card cardImg={cardImg5} personImg={personImg1} />
@@ -59,7 +59,7 @@ function Menu() {
         <Card cardImg={cardImg10} personImg={personImg1} />
         <Card cardImg={cardImg11} personImg={personImg1} />
       </div>
-      </div>
+    </div>
   );
 }
 
