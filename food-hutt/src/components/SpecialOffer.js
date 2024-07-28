@@ -11,17 +11,22 @@ import personImg3 from "../assets/images/personImg3.svg";
 function Offer() {
   return (
     <div className="container mx-auto">
-    <div className="py-20 text-center">
-        <h1 className="mb-8 text-5xl font-bold">Today <span class="text-primary">special</span> offers</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-          has been the industry's standard dummy text ever since the 1500s</p>
+      <div className="py-20 text-center">
+        <h1 className="mb-8 text-5xl font-bold">
+          Today <span class="text-primary">special</span> offers
+        </h1>
+        <p className="px-72">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s
+        </p>
       </div>
-    <div className="flex container gap-8 ">
-      <Card cardImg={cardImg1} personImg={personImg1} />
-      <Card cardImg={cardImg2} personImg={personImg2} />
-      <Card cardImg={cardImg3} personImg={personImg3} />
-      <Card cardImg={cardImg4} personImg={personImg1} />
-    </div>
+      <div className="flex gap-8">
+        <Card cardImg={cardImg1} personImg={personImg1} />
+        <Card cardImg={cardImg2} personImg={personImg2} />
+        <Card cardImg={cardImg3} personImg={personImg3} />
+        <Card cardImg={cardImg4} personImg={personImg1} />
+      </div>
     </div>
   );
 }

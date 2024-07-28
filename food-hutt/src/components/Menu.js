@@ -13,7 +13,7 @@ import Button from "./Button.js";
 
 function Menu() {
   return (
-    <div className="container mx-auto">
+    <div className="container">
       <div class="py-12 text-center">
         <h1 class="mb-8 text-5xl font-bold leading-snug">
           <span class="text-primary">Menu</span> that{" "}

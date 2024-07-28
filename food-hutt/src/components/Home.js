@@ -8,7 +8,7 @@ import playButton from "../assets/images/playButton.svg";
 function Home() {
   return (
     <section id="Hero">
-      <div className="container mx-auto flex justify-between">
+      <div className="container flex justify-between">
         <div className="py-8">
           <button className="py-4">
             <div className="flex gap-2 bg-primary bg-opacity-5 py-2 px-4 rounded-3xl">

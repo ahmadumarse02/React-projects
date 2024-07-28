@@ -5,7 +5,7 @@ import Button from "./Button";
 function Navbar() {
   return (
     <nav>
-      <div className="container mx-auto justify-between py-3 flex">
+      <div className="container justify-between py-3 flex">
         <div className="cursor-pointer">
           <img src={logo} alt="" />
         </div>

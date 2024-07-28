@@ -8,10 +8,10 @@ import Button from "./Button.js"
 function About() {
   return (
     <>
-      <div className="container mx-auto py-20">
-        <div className="flex justify-between gap-32">
-          <img className="h-[620px] " src={cookImg} alt="" />
-          <div className="rightSide py-16">
+      <div className="container py-20">
+        <div className="flex justify-between">
+          <img className="h-[620px]" src={cookImg} alt="" />
+          <div className="rightSide w-1/2 py-16">
             <h1 className="text-5xl font-bold max-w-[452px] mb-7">
               We are <span className="text-primary">more</span> than{" "}
               <span class="text-secondary">multiple</span> service
